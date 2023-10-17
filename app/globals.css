@@ -3,25 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  @apply 
+  [--margin-x:1rem]
+  [--main-sidebar-width:4.5rem]
+  [--sidebar-panel-width:230px]
+  [--sidebar-panel-min-width:64px]
+  md:[--margin-x:1.5rem]
+  lg:[--main-sidebar-width:5rem]
+  lg:[--sidebar-panel-width:240px]
+  xl:[--margin-x:4rem]
+ 
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+:root {
+  --swiper-pagination-color: #4f46e5;
+  --swiper-theme-color: #7e75fa;
+  --swiper-navigation-size: 24px
+}
+ 
+@supports selector(::-webkit-scrollbar) {
+  .scrollbar-sm::-webkit-scrollbar {
+    @apply h-1.5 w-1.5;    
   }
+  .scrollbar-sm::-webkit-scrollbar-thumb{
+   @apply rounded-full bg-slate-300/80 dark:bg-black;
+  }
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.main-content {
+  @apply  grid grid-cols-1 place-content-start transition-[width,margin-left,margin-right,padding-left,padding-right] duration-[.25s] ease-in print:m-0 ;
+}
+.card {
+  @apply relative flex  min-w-[1px] flex-col break-words rounded-lg  bg-white text-slate-500 shadow-soft dark:bg-navy-700 dark:text-navy-200 dark:shadow-none  print:border;
+}
+.card1 {
+  @apply relative flex  min-w-[1px] flex-col break-words rounded-lg  bg-white text-slate-500 shadow-soft dark:shadow-none  print:border;
 }

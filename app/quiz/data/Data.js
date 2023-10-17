@@ -1,0 +1,110 @@
+ export const Qdata = [
+    {
+      "id": 1,
+      "question": "QA-0.png",
+      "option": ['QA-1.png', 'QA-2.png', 'QA-3.png', 'QA-4.png'],
+      "answer": 2,
+    },
+    {
+      "id": 2,
+      "question": "QA-5.png",
+      "option": ['QA-6.png', 'QA-7.png', 'QA-8.png', 'QA-9.png'],
+      "answer": 2,
+    },
+    {
+      "id": 3,
+      "question": "QA-10.png",
+      "option": ['QA-11.png', 'QA-12.png', 'QA-13.png', 'QA-14.png'],
+      "answer": 3,
+    },
+    {
+      "id": 4,
+      "question": "QA-15.png",
+      "option": ['QA-16.png', 'QA-17.png', 'QA-18.png', 'QA-19.png'],
+      "answer": 1,
+    },
+    {
+      "id": 5,
+      "question": "QA-20.png",
+      "option": ['QA-21.png', 'QA-22.png', 'QA-23.png', 'QA-24.png'],
+      "answer": 0,
+    },
+    {
+      "id": 6,
+      "question": "QA-25.png",
+      "option": ['QA-26.png', 'QA-27.png', 'QA-28.png', 'QA-29.png'],
+      "answer": 1,
+    },
+    {
+      "id": 7,
+      "question": "QA-30.png",
+      "option": ['QA-31.png', 'QA-32.png', 'QA-33.png', 'QA-34.png'],
+      "answer": 3,
+    },
+    {
+      "id": 8,
+      "question": "QA-35.png",
+      "option": ['QA-36.png', 'QA-37.png', 'QA-38.png', 'QA-39.png'],
+      "answer": 0,
+    },
+    {
+      "id": 9,
+      "question": "QA-40.png",
+      "option": ['QA-41.png', 'QA-42.png', 'QA-43.png', 'QA-44.png'],
+      "answer": 1,
+    },
+    {
+      "id": 10,
+      "question": "QA-45.png",
+      "option": ['QA-46.png', 'QA-47.png', 'QA-48.png', 'QA-49.png'],
+      "answer": 2,
+    },
+    {
+      "id": 11,
+      "question": "QA-50.png",
+      "option": ['QA-51.png', 'QA-52.png', 'QA-53.png', 'QA-54.png'],
+      "answer": 0,
+    },
+    {
+      "id": 12,
+      "question": "QA-55.png",
+      "option": ['QA-56.png', 'QA-57.png', 'QA-58.png', 'QA-59.png'],
+      "answer": 2,
+    },
+    {
+      "id": 13,
+      "question": "QA-60.png",
+      "option": ['QA-61.png', 'QA-62.png', 'QA-63.png', 'QA-64.png'],
+      "answer": 3,
+    },
+    {
+      "id": 14,
+      "question": "QA-65.png",
+      "option": ['QA-66.png', 'QA-67.png', 'QA-68.png', 'QA-69.png'],
+      "answer": 2,
+    },
+    {
+      "id": 15,
+      "question": "QA-70.png",
+      "option": ['QA-71.png', 'QA-72.png', 'QA-73.png', 'QA-74.png'],
+      "answer": 1,
+    },
+    {
+      "id": 16,
+      "question": "QA-75.png",
+      "option": ['QA-76.png', 'QA-77.png', 'QA-78.png', 'QA-79.png'],
+      "answer": 0,
+    },
+    {
+      "id": 17,
+      "question": "QA-80.png",
+      "option": ['QA-81.png', 'QA-82.png', 'QA-83.png', 'QA-84.png'],
+      "answer": 3,
+    },
+    {
+      "id": 18,
+      "question": "QA-85.png",
+      "option": ['QA-86.png', 'QA-87.png', 'QA-88.png', 'QA-89.png'],
+      "answer": 2,
+    }
+];
